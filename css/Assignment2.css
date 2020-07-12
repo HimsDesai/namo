@@ -1,0 +1,214 @@
+h1 {
+	color: #C71585;
+	font-size: 300%;
+	text-align: center;
+}
+
+.facebook 
+{
+	padding: 0px 0px 0px 0px;
+	background-color: grey;
+	border: solid black;
+	height: 350px;
+	width: 350px;
+	font-size: 130%;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+#fb {
+	background-color: #1E90FF;
+	border: solid black;
+	height: 25px;
+	width: 108px;
+	padding: 10px 10px 10px 10px;
+	font-size: 130%;
+	text-align: center;
+	position: relative;
+	left: 220px;
+	top: -29px;
+}
+
+.instagram 
+{
+	padding: 0px 0px 0px 0px;
+	background-color: grey;
+	border: solid black;
+	height: 350px;
+	width: 350px;
+	font-size: 130%;
+	background-position: top right;
+	position: absolute;
+	top: 150px;
+	left: 600px;
+}
+#insta {
+	background-color: yellow ;
+	border: solid black;
+	height: 25px;
+	width: 125px;
+	padding: 10px 10px 10px 10px;
+	font-size: 135%;
+	text-align: center;
+	position: relative;
+	left: 203px;
+	top: -30px;
+}
+
+
+.twitter 
+{
+	padding: 0px 0px 0px 0px;
+	background-color: grey;
+	border: solid black;
+	height: 350px;
+	width: 350px;
+	font-size: 130%;
+	position: absolute;
+	top: 150px;
+	right: 100px;
+}
+#twit {
+	background-color: #00BFFF;
+	border: solid black;
+	height: 25px;
+	width: 100px;
+	padding: 10px 10px 10px 10px;
+	font-size: 135%;
+	text-align: center;
+	position: relative;
+	left: 227.5px;
+	top: -30px;
+}
+
+
+@media (min-width: 975px) and (max-width: 1440px)
+{
+.twitter 
+{
+	height: 200px;
+	width: 850px;
+	position: absolute;
+	top: 550px;
+	right: 150px;
+	left: 100px;
+}
+#twit
+{
+	height: 25px;
+	width: 100px;
+	position: relative;
+	left: 728px;
+	top: -30px;
+}	
+}
+
+@media (min-width: 560px) and (max-width: 974px)
+{
+.facebook 
+{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+#fb {
+	height: 25px;
+	width: 108px;
+	position: relative;
+	left: 220px;
+	top: -29px;
+}
+
+.instagram 
+{
+	height: 350px;
+	width: 350px;
+	background-position: top right;
+	position: absolute;
+	top: 550px;
+	left: 100px;
+}
+#insta 
+{
+	height: 25px;
+	width: 125px;
+	position: relative;
+	left: 203px;
+	top: -30px;
+}
+.twitter 
+{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 950px;
+	left: 100px;
+}
+#twit 
+{	
+	height: 25px;
+	width: 100px;
+	position: relative;
+	left: 227.5px;
+	top: -30px;
+}	
+}
+
+@media (min-width: 100px) and (max-width: 559px)
+{
+
+.facebook 
+{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 150px;
+	left: 70px;
+}
+#fb {
+	height: 25px;
+	width: 108px;
+	position: relative;
+	left: 219.5px;
+	top: -29px;
+}
+
+.instagram 
+{
+	height: 350px;
+	width: 350px;
+	background-position: top right;
+	position: absolute;
+	top: 550px;
+	left: 70px;
+}
+#insta 
+{
+	height: 25px;
+	width: 125px;
+	position: relative;
+	left: 203px;
+	top: -30px;
+}
+.twitter 
+{
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 950px;
+	left: 70px;
+}
+#twit 
+{	
+	height: 25px;
+	width: 100px;
+	position: relative;
+	left: 227.5px;
+	top: -30px;
+}	
+
+
+
+}
